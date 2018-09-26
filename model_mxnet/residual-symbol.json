@@ -17,7 +17,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(3,3)", 
@@ -75,7 +74,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(3,3)", 
@@ -133,7 +131,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -191,7 +188,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(3,3)", 
@@ -249,7 +245,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -314,7 +309,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -365,7 +359,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -423,7 +416,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(3,3)", 
@@ -481,7 +473,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -546,7 +537,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -604,7 +594,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(3,3)", 
@@ -662,7 +651,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -727,7 +715,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -778,7 +765,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -836,7 +822,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(3,3)", 
@@ -894,7 +879,6 @@
     {
       "op": "Convolution", 
       "param": {
-        "cudnn_off": "False", 
         "cudnn_tune": "off", 
         "dilate": "(1,1)", 
         "kernel": "(1,1)", 
@@ -956,7 +940,6 @@
         "kernel": "(14,14)", 
         "pad": "(0,0)", 
         "pool_type": "avg", 
-        "pooling_convention": "valid", 
         "stride": "(1,1)"
       }, 
       "name": "pool5", 
@@ -1008,8 +991,6 @@
         "ignore_label": "-1", 
         "multi_output": "False", 
         "normalization": "null", 
-        "out_grad": "False", 
-        "preserve_shape": "False", 
         "use_ignore": "False"
       }, 
       "name": "softmax", 
